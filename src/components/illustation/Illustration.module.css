@@ -1,0 +1,49 @@
+.main_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.main_container_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 640px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 2rem;
+}
+
+.main_container_text p {
+    max-width: 450px;
+}
+
+.main_container_text button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background: #65e2d9;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.main_container_text button:hover {
+    color: #65e2d9;
+    background: #ffffff;
+    border: solid 3px #65e2d9;
+
+}
+
+
+
+@media screen and (max-width: 900px){
+    .main_container img{
+        width: 50%;
+    }
+}

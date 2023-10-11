@@ -1,0 +1,15 @@
+.advantages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-content: center;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+
+@media screen and (max-width: 900px){
+    .advantages{
+        grid-template-columns: repeat(1, 1fr)
+    }
+}
